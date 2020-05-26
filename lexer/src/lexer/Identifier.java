@@ -3,11 +3,12 @@ package lexer;
 import java.util.Hashtable;
 
 public class Identifier {
-    private Hashtable<String, Integer> collection;
-    public Identifier(String id, Integer value) {
-        collection.put(id, value);
+    private Hashtable<String, Integer> collection = new Hashtable<>();
+    public Identifier(String key, Integer value) {
+        collection.put(key, value);
     }
-    public Integer getValue(String id) {
-        return collection.get(id);
+
+    public Integer getValue(String key) {
+        return collection.get(key);
     }
 }
