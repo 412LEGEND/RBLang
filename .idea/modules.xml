@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/RBLang.iml" filepath="$PROJECT_DIR$/.idea/RBLang.iml" />
       <module fileurl="file://$PROJECT_DIR$/lexer/lexer.iml" filepath="$PROJECT_DIR$/lexer/lexer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/main/main.iml" filepath="$PROJECT_DIR$/main/main.iml" />
       <module fileurl="file://$PROJECT_DIR$/parser/parser.iml" filepath="$PROJECT_DIR$/parser/parser.iml" />
     </modules>
   </component>
